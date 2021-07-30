@@ -4,5 +4,6 @@
   "main": "./dist/index.js",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "b9a1157d38bf4e3982f1ce30352f3d7eafea9db0"
 }
