@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const http = require("http");
 const cors = require("cors");
@@ -9,9 +10,7 @@ const server = http.createServer(app);
 
 const store = createStore({
   connections: {
-    default: createMongoConnection(
-      `mongodb+srv://demo:RWnMZE8yBA8A7bAE@cluster0.ionng.mongodb.net/?retryWrites=true&w=majority`
-    ),
+    default: createMongoConnection(process.env.DATABASE_CONNECTION),
   },
 });
 
