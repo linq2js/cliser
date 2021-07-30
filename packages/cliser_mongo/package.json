@@ -1,0 +1,8 @@
+{
+  "name": "@cliser/mongo",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

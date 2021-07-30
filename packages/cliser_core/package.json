@@ -1,0 +1,11 @@
+{
+  "name": "@cliser/core",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
