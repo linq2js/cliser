@@ -1,13 +1,13 @@
 {
   "name": "server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "start": "nodemon ./src/index.js"
   },
   "private": true,
   "dependencies": {
-    "@cliser/core": "^0.0.2",
-    "@cliser/mongo": "^0.0.2",
+    "@cliser/core": "^0.0.3",
+    "@cliser/mongo": "^0.0.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongodb": "^4.0.1"
